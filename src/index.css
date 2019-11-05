@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
+	background-color: gray;
 }
 
 /* ##### general ##### */
@@ -44,6 +45,7 @@ th {
 td:hover {
 	position: left;
 	cursor: pointer;
+	color: black;
 	background-color: #ddd;
 }
 
@@ -52,12 +54,15 @@ td:hover {
 	float: left;
 	width: 50%;
 	padding: 10px;
+	color: white;
+	background-color: black;
 }
 .column2 {
 	float: left;
 	width: 50%;
 	padding: 20px;
-	background-color: #ccdef9;
+	color: white;
+	border: 5px solid white;
 }
 
 /* ##### Rows ##### */
@@ -81,10 +86,10 @@ td:hover {
 /* ##### Footer ##### */
 .credit {
 	padding: 1rem 0;
-	color: #b3b3b3;
+	color: white;
 }
 .credit a {
-	color: #3498bb;
+	color: blue;
 }
 button {
 	background: #d7d7d7;
